@@ -1,4 +1,1 @@
-from flask import Flask
-
-app = Flask(__name__)
-from app import views
+from .web import launch_server
